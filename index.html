@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Personal Portfolio Website Design | Codehal</title>
+    
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+
+    <!-- box icons -->
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!-- header design -->
+     <header class="header">
+      <a href="#" class="logo">Portfolio</a>
+
+      <i class='bx bx-menu' id="menu-icon"></i>
+
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a> 
+      </nav>
+     </header>
+
+    <!-- home section design -->
+     <section class="home" id="home">
+          <div class="home-content">
+               <h3>Hello, It's Me</h3>
+               <h1>Kushagra Chaubey</h1>
+               <h3>And I'm an aspiring <span class="multiple-text">Data Scientist</span></h3>
+               <p>Hey there! I’m Kushagra Chaubey, a curious mind and data enthusiast currently pursuing B.Tech in Computer Science (3rd year).
+I love exploring patterns hidden in data and turning numbers into insights.
+My toolkit includes Python, SQL, Pandas, NumPy, and Java, and I’m always excited to learn, experiment, and create something meaningful that blends logic and creativity.</p>
+
+<div class="social-media">
+  <a href="https://www.linkedin.com/in/kushagra-chaubey-a86049291/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+  <a href="https://github.com/kush14codes" target="_blank"><i class='bx bxl-github'></i></a>
+</div>
+
+</div>
+<div class="home-img">
+  <img src="images/home.jpg" alt="">
+</div>
+     </section>
+
+    <!-- about section design -->
+     <section class="about" id="about">
+        <div class="about-img">
+          <img src="images/about.jpg" alt="">
+        </div>
+
+        <div class="about-content">
+          <h2 class="heading">About <span> Me</span></h2>
+          <h3>Aspiring Data Scientist</h3>
+          <p>Hi, I’m Kushagra Chaubey, a 3rd-year B.Tech Computer Science student specializing in Data Science.
+I have a strong foundation in Python, SQL, Pandas, NumPy, and Java, with growing expertise in data analysis, problem-solving, and software development.
+I’m passionate about leveraging data-driven approaches to solve real-world problems and constantly enhancing my technical and analytical skills through projects and continuous learning.</p>
+        
+</div>
+     </section>
+
+    <!-- services section design -->
+
+    <!-- portfolio section design -->
+<!-- portfolio section design -->
+<section class="portfolio" id="portfolio">
+  <h2 class="heading">Latest <span>Project</span></h2>
+  <div class="portfolio-container">
+
+    <div class="portfolio-box">
+      <img src="images/portfolio1.jpg" alt="">
+      <div class="portfolio-layer">
+        <h4>Expense-Tracking System</h4>
+        <p>A Python-based web app built with FastAPI, MySQL, and Streamlit to manage and analyze expenses. It enables users to add, update, and visualize expenses with category-based filtering and seamless backend-frontend integration.</p>
+        <a href="#"><i class='bx bx-link-external'></i></a>
+      </div>
+    </div>
+
+    <div class="portfolio-box">
+      <img src="images/portfolio2.jpg" alt="">
+      <div class="portfolio-layer">
+        <h4>Yolov12 Face Recognition</h4>
+        <p>A real-time face recognition project using YOLOv12, OpenCV, Flask, and Firebase. It detects and identifies faces from live video feeds and securely manages attendance data through cloud integration.</p>
+        <a href="#"><i class='bx bx-link-external'></i></a>
+      </div>
+    </div>
+
+    
+  </div>
+</section>
+
+    <!-- contact section design -->
+<section class="contact" id="contact">
+  <h2 class="heading">Contact <span>Me</span></h2>
+
+  <form id="contact-form">
+    <div class="input-box">
+      <input type="text" id="name" placeholder="Full Name" required>
+      <input type="email" id="email" placeholder="Email Address" required>
+    </div>
+
+    <div class="input-box">
+      <input type="text" id="phone" placeholder="Mobile Number (Optional)">
+      <input type="text" id="subject" placeholder="Email Subject" required>
+    </div>
+
+    <textarea id="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
+    <input type="submit" value="Send Message" class="btn">
+  </form>
+</section>
+
+
+
+    <!-- footer design -->
+      <footer class="footer">
+        <div class="footer-text">
+          <p>Copyright &copy; 2025 by Kushagra Chaubey | All Rights Reserved.</p>
+        </div>
+
+        <div class="footer-iconTop">
+          <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+      </footer>
+
+      
+
+
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- typed js -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <!-- custom js -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
+
